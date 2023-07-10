@@ -1,0 +1,75 @@
+.background {
+    margin: 36px 0;
+    border-radius: 8px;
+    background-image: url('../../../assets/img/background_award.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.title {
+    color: white;
+    font-size: 46px;
+    font-weight: 600;
+    padding: 16px;
+    margin-top: 80px;
+}
+
+.container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 36px;
+
+    &>div {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        background-color: #0e9249;
+        padding: 18px 8px;
+        margin: 16px;
+        width: 328px;
+        border-radius: 8px;
+        flex-basis: 0.5;
+
+        &:hover {
+            background-color: #00b14f;
+        }
+
+        &>img {
+            margin: 8px;
+        }
+    }
+}
+
+.groupText {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    cursor: pointer;
+
+    &>p {
+        margin-bottom: 6px;
+        color: white;
+        font-weight: 600;
+    }
+
+    &>span {
+        color: white;
+        margin-right: 8px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .title {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .title {
+        text-align: center;
+    }
+}

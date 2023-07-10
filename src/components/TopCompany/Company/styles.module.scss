@@ -1,0 +1,82 @@
+.boxCompany {
+    background-color: white;
+    margin: 16px 24px;
+    border-radius: 5px;
+    padding: 8px;
+    height: 330px;
+
+}
+
+.img {
+    width: 50%;
+    height: 80px;
+}
+
+.hastag {
+    position: relative;
+    margin: 8px 0px 8px 8px;
+    width: 28%;
+    background: linear-gradient(90deg, #fd7222, #edab28);
+    border-radius: 3px;
+
+    & p {
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 18px;
+        padding: 3px 5px;
+    }
+
+    &::before {
+        background: #fff;
+        border-top-right-radius: 5px;
+        content: "";
+        height: 21px;
+        position: absolute;
+        right: -10px;
+        top: 50%;
+        transform: translateY(-50%) rotate(-45deg);
+        width: 21px;
+
+    }
+}
+
+.groupData {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &>p {
+        margin-top: 8px;
+        text-align: center;
+        min-height: 60px;
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 20px;
+    }
+}
+.amountJob{
+    background: #f4f5f5;
+    padding: 6px 8px;
+    border-radius: 5px;
+    & p{
+        margin: 0;
+    }
+}
+.follow{
+    margin-top: 16px;
+    & button{
+border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        border: 1px solid #00b14f;
+        color: #00b14f;
+        padding: 8px 24px;
+        & p{
+            margin: 0;
+            margin-right: 8px;
+        }
+    }
+}

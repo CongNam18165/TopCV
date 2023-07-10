@@ -1,0 +1,32 @@
+.container{
+    flex-basis: 32%;
+    margin-top: 16px;
+}
+.img1{
+    position: relative;
+
+}
+.img2{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    bottom:33%;
+    left:5%;
+    border-radius: 5px;
+}
+@media only screen and (max-width: 768px) {
+    .container {
+        flex-basis: 48%;
+    }
+    .img2{
+        bottom:33%;
+    }
+}
+@media only screen and (max-width: 480px) {
+    .container {
+        flex-basis: 98%;
+    }
+    .img2{
+        bottom:33%;
+    }
+}

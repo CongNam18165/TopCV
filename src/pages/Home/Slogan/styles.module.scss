@@ -1,0 +1,67 @@
+.all {
+    margin: 36px 0;
+}
+
+.container {
+    margin: 0 -32px;
+}
+
+.boxTitle {
+    color: #00b14f;
+}
+
+.boxText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, #f3f5f7 23.92%, #f0fff5);
+    border-radius: 8px;
+    padding-left: 16px;
+    margin: 16px 8px;
+
+    &:hover {
+        box-shadow: 0 10px 30px rgba(0, 177, 79, .2);
+        outline: 1px solid #33c172;
+    }
+
+    & img {
+        max-width: 146px;
+        max-height: 216px;
+    }
+
+    & div:first-child {
+        &>p {
+            color: #212f3f;
+            font-size: 20px;
+        }
+
+        &>span {
+            color: #6f7882;
+            font-size: 14px;
+        }
+
+        & button {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 16px;
+
+            &>span {
+                color: white;
+                margin: 0 16px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    h4 {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    h4 {
+        text-align: center;
+    }
+}

@@ -1,0 +1,129 @@
+.container {
+    background: linear-gradient(90deg, #fff -9.59%, #fff 37.78%, #deffea);
+    padding: 0;
+    border-radius: 0 20px 20px 20px;
+    margin-left: -15px;
+    padding-left: 16px;
+    margin-bottom: 32px;
+}
+
+.groupTele {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, #047e3c, #13c964);
+    width: fit-content;
+    padding: 12px 8px;
+    border-radius: 32px;
+    margin: 38px 0;
+    flex-wrap: wrap;
+
+    &>div {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        background-color: #e9eaec;
+        color: #00b14f;
+        margin-left: 48px;
+        padding: 8px 18px;
+        border-radius: 32px;
+
+        &>i {
+            margin: 0 8px;
+        }
+
+        &>p {
+            margin: 0;
+        }
+
+        &:hover {
+            cursor: pointer;
+            background-color: #fff;
+        }
+    }
+
+    &>p {
+        letter-spacing: 4px;
+        color: #f8fefa;
+        font-size: 24px;
+        font-weight: 600;
+        margin: 0;
+        margin-left: 8px;
+    }
+}
+
+.groupInfo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 16px 0;
+
+    &>p:first-child {
+        color: #4d5965;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 24px;
+        margin: 0 18px 0 0;
+    }
+
+    &>p:last-child {
+        color: #00b14f;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 24px;
+        margin: 0 0 0 8px;
+    }
+
+    &>i {
+        color: #4fc986;
+        padding: 8px;
+        background-color: rgba(0, 177, 79, .07);
+        font-size: 12px;
+        border-radius: 50%;
+    }
+}
+
+.img {
+
+    &>div {
+        &>img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
+
+.box {
+    &>h2 {
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 36px;
+        margin: 48px 0 16px 0;
+
+        &>span {
+            color: #00b14f;
+        }
+    }
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    .box {
+        text-align: center;
+    }
+
+    .groupTele {
+        &>div {
+            margin: 0;
+        }
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .groupTele {
+        &>div {
+            margin: 0;
+        }
+    }
+}

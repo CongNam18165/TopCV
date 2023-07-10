@@ -1,0 +1,29 @@
+.container {
+    background-color: #fff;
+    border-radius: 0 20px 20px 20px;
+    padding: 32px 40px;
+    margin-bottom: 32px;
+
+    & p {
+        font-weight: 700;
+        font-size: 14px;
+        color: #4d5965;
+        margin-top: 24px;
+    }
+}
+
+.email {
+    cursor: pointer;
+
+    &>span {
+        margin: 0 8px;
+        color: #4fc986;
+    }
+
+    &>i {
+        padding: 8px;
+        border-radius: 50%;
+        color: #4fc986;
+        background-color: rgba(0, 177, 79, .07);
+    }
+}

@@ -1,0 +1,22 @@
+.boxTitle{
+    margin-top: 16px;
+    /* margin-left: 16px; */
+    & h3{
+color: green;
+font-weight: 700;
+    }
+    & p{
+        font-size: 12px;
+        & span{
+            text-decoration: underline;
+            color: green;
+            cursor: pointer;
+            &:hover{
+                text-decoration: none;
+            }
+        }
+    }
+}
+.boxInfo{
+    margin: 0 -16px;
+}

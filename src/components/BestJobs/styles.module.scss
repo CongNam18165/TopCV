@@ -1,0 +1,151 @@
+.boxAll {
+    background-color: #f3f5f7;
+    padding-top: 36px;
+}
+
+.boxTitle {
+    color: #00b14f;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    & img {
+        margin-left: 36px;
+        width: 110px;
+        padding-left: 24px;
+        border-left: 1px solid #bcc1c5;
+    }
+
+    & h2 {
+        font-size: 24px;
+    }
+}
+
+.boxControl {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    & p {
+        margin: 0;
+        text-decoration: underline;
+        font-size: 13px;
+        font-weight: 500;
+        cursor: pointer;
+    }
+
+    & i {
+        border: 1px solid #00b14f;
+        padding: 5px 8px;
+        border-radius: 50%;
+        color: #00b14f;
+        cursor: pointer;
+
+        &:hover {
+            background-color: #00b14f;
+            color: #f3f5f7;
+        }
+    }
+
+    & i:nth-child(2) {
+        margin: 0 8px;
+    }
+
+}
+
+.boxFilter {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 5px;
+    border: 1px solid #dee0e2;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    padding: 8px;
+    max-width: 220px;
+    & select {
+        padding-right: 16px;
+        border: none;
+        background-color: #f3f5f7;
+        color: #444;
+
+        &:focus {
+            outline: none;
+        }
+
+        & option {
+            text-align: center;
+
+            &:focus {
+                outline: none;
+            }
+        }
+    }
+
+    & p {
+        font-size: 14px;
+        padding-left: 8px;
+        margin: 0;
+        color: #a6acb2;
+    }
+
+    & i {
+        color: #a6acb2;
+    }
+}
+
+.boxLocation {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    & p {
+        cursor: pointer;
+        padding: 8px 12px;
+        margin: 0 12px;
+        background-color: #e9eaec;
+        border-radius: 18px;
+    }
+
+    & i {
+        cursor: pointer;
+        padding: 6px 10px;
+        border-radius: 50%;
+        border: 1px solid #00b14f;
+        color: #00b14f;
+
+        &:hover {
+            background-color: #00b14f;
+            color: white;
+        }
+    }
+}
+
+.boxCompanies {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 -8px;
+}
+
+.numberPages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 36px;
+
+    & p{
+        margin: 0 16px;
+    }
+& i{
+    padding: 7px 10px;
+    color: #00b14f;
+    border-radius: 50%;
+    border: 1px solid #00b14f;
+    &:hover{
+        background-color: #00b14f;
+        color: white;
+    }
+}
+}

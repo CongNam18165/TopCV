@@ -1,0 +1,227 @@
+.logo {
+    width: 200px;
+}
+
+.brand {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    &>img:last-child {
+        width: 95px;
+        height: 36px;
+    }
+
+    &>img:nth-child(2) {
+        margin: 0 16px;
+    }
+}
+
+.title1 {
+    &>p:first-child {
+        font-weight: 600;
+        margin: 16px 0 8px 0;
+    }
+
+    & p {
+        margin: 0;
+        font-weight: 700;
+    }
+
+    & span {
+        color: #6f7882;
+        font-weight: 200;
+    }
+}
+
+.title2 {
+    &>p:first-child {
+        font-weight: 600;
+        margin: 16px 0 8px 0;
+    }
+
+    & div {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+}
+
+.social {
+    &>p:first-child {
+        font-weight: 600;
+        margin: 16px 0 8px 0;
+    }
+
+    & div {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+
+        & i {
+            color: gray;
+            font-size: 24px;
+            margin-right: 16px;
+        }
+    }
+}
+
+.aboutTopCV {
+    & p {
+        margin-bottom: 8px;
+        color: #4d5965;
+        font-size: 14px;
+    }
+}
+
+.fileCV {
+    & p {
+        margin-bottom: 8px;
+        color: #4d5965;
+        font-size: 14px;
+    }
+}
+
+.jobs {
+    & p {
+        margin-bottom: 8px;
+        color: #4d5965;
+        font-size: 14px;
+    }
+}
+
+.title3 {
+    color: #212f3f;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+
+.infoLicense {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    &>p {
+        color: black;
+        font-weight: 600;
+
+        &>span {
+            font-weight: 100;
+            color: #4d5965;
+        }
+    }
+&>p:first-child{
+    margin-right: 24px;
+}
+    & i {
+
+        color: #00b14f;
+    }
+
+}
+
+.infoLocation {
+    & i {
+        color: #00b14f;
+    }
+
+    & p {
+        color: black;
+        font-weight: 600;
+
+        &>span {
+            font-weight: 100;
+            color: #4d5965;
+        }
+    }
+}
+
+.qrCode {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    & img {
+        width: 120px;
+        height: 120px;
+    }
+
+    & a {
+        color: #00b14f;
+        font-size: 12px;
+        margin-top: 10px;
+    }
+}
+
+.ecosystem {
+    font-size: 14px;
+    font-weight: 600;
+    color: #212f3f;
+}
+
+.infoTopcv,
+.infoHappytime,
+.infoTestcenter,
+.infoShiring {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    border-radius: 5px;
+    font-size: 12px;
+    margin: 8px 0;
+    cursor: pointer;
+    &:hover{
+        opacity: 0.7;
+    }
+    &>p{
+        color:white;
+        margin: 0;
+    }
+    &>img{
+        margin-right: 8px;
+        width: 50px;
+        height: 40px;
+    }
+}
+
+.infoTopcv {
+    background: linear-gradient(90deg, #213142 .62%, #0a9c4b 99.38%);
+}
+
+.infoHappytime {
+    background: linear-gradient(90deg, #fd7222, #edab28);
+}
+
+.infoTestcenter {
+    background: linear-gradient(90deg, #2a3a4d, #0e60d8);
+}
+
+.infoShiring {
+    background: linear-gradient(90deg, #009941 .18%, #0bca5d);
+}
+.lastTitle{
+    text-align: center;
+    font-size: 14px;
+    color: #4d5965;
+    margin: 16px 0 36px 0;
+}
+@media only screen and (max-width:768px) {
+    .container {
+        text-align: center;
+    }
+    .aboutTopCV,.fileCV,.jobs{
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width:576px) {
+    .container {
+        text-align: center;
+    }
+    .aboutTopCV,.fileCV,.jobs{
+        text-align: center;
+    }
+}

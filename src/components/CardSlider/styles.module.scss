@@ -1,0 +1,41 @@
+// .container{
+// }
+.boxCard {
+    margin: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 240px;
+    // min-width: 280px;
+    background-color: #f3f5f7;
+    border: none;
+    border-radius: 8px;
+
+    & p,
+    div {
+        text-align: center;
+    }
+
+    &:hover {
+        background: white;
+        border: 1px solid #33c172;
+        box-shadow: 0 10px 30px rgba(14,166,59,.2);
+    }
+}
+
+.title {
+    min-height: 50px;
+    border: none;
+}
+
+.text {
+    border: none;
+    color: #00b14f;
+}
+
+.img {
+    padding-top: 16px;
+    width: 100px;
+    height: 100px;
+}

@@ -1,0 +1,32 @@
+.container {
+}
+
+.img1,
+.img2,
+.img3,
+.img4 {
+    display: inline-block;
+    z-index: 10;
+    // padding: 16px;
+    border: 1px solid gray;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin: 24px;
+    &:hover {
+        border: 1px solid #33c172;
+        box-shadow: 0 10px 30px rgba(14, 166, 59, .2);
+        cursor: pointer;
+    }
+}
+.img2{
+    z-index: 2;
+margin-top: 50px ;
+}
+.img3{
+    z-index: 2;
+    margin: 0 16pxs;
+}
+.groupRun{
+    margin: 16px 0;
+}

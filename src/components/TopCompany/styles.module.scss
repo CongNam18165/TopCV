@@ -1,0 +1,35 @@
+.boxAll {
+    background-color: #f3f5f7;
+    // height: 500px;
+    padding-top: 24px;
+}
+
+.boxTitle {
+    color: #00b14f;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+.grap {
+    margin-left: -24px;
+    margin-right: -24px;
+
+}
+
+
+@media only screen and (max-width: 768px) {
+    .boxTitle {
+        & h3 {
+            text-align: center;
+        }
+    }
+} 
+
+@media only screen and (max-width: 768px) {
+    .boxTitle {
+        & h3 {
+            text-align: center;
+        }
+    }
+}

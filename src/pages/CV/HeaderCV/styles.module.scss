@@ -1,0 +1,70 @@
+.containerCV {
+    margin-top: 75px;
+    background-color: white;
+    background-color: #f0f0f0;
+}
+
+.title {
+    margin-top: 64px;
+
+    &>h2 {
+        font-size: 20px;
+
+        & img {
+            width: 50px;
+            height: 30px;
+        }
+    }
+
+    &>p {
+        color: #858d95;
+        font-size: 14px;
+        font-weight: 400;
+    }
+}
+
+.groupDrop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #fff;
+    padding: 8px 16px;
+    border-radius: 8px;
+
+    &>div {
+        flex-basis: 22%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 8px;
+        border: 1px solid #e9e9e9;
+
+        &>span {
+            margin: 0 16px;
+            color: #444;
+        }
+    }
+
+    &>div:last-child {
+        border: none;
+        flex-basis: 28%;
+        &>input {
+            margin: 0 8px;
+        }
+
+        &>label {
+            margin-right: 16px;
+        }
+    }
+}
+@media only screen and (max-width: 768px) {
+    .containerCV {
+        margin-top:0; 
+    }
+}
+@media only screen and (max-width: 480px) {
+    .containerCV {
+        margin-top:0; 
+    }
+}

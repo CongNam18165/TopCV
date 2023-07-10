@@ -1,0 +1,330 @@
+.container {
+    background-image: url("../../../assets/img/anhnen.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-family: Inter, sans-serif;
+    margin-top: 75px;
+    padding-bottom: 50px;
+    padding-top: 42px;
+}
+
+.bigGroup {
+    display: flex;
+    flex-direction: column;
+    // margin-left: 24px;
+
+    & h4 {
+        color: white;
+    }
+
+    & h1 {
+        color: white;
+    }
+}
+
+.slogan {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    & h1:first-child {
+        margin-right: 10px;
+        color: green;
+    }
+}
+
+.boxContainer {
+    display: flex;
+    background-color: white;
+    padding: 19px;
+    border-radius: 8px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.boxSearch {
+    display: flex;
+    justify-content: flex-start;
+
+    & img {
+        margin-right: 15px;
+        width: 25px;
+        height: 25px;
+    }
+
+    & input {
+        width: 100%;
+        border: none;
+        outline: none;
+    }
+}
+
+.boxLocation {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    & img {
+        width: 25px;
+        height: 25px;
+    }
+
+    & i {
+        color: green;
+    }
+
+    &::before {
+        background: #dee0e2;
+        border-radius: 100px;
+        content: "";
+        display: block;
+        height: 32px;
+        position: absolute;
+        width: 1px;
+        right: 50%;
+    }
+
+
+}
+
+.boxExperience {
+    background-color: white;
+    margin: 16px 0px 16px 0px;
+    padding: 19px;
+    border-radius: 8px;
+
+    &>div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        & i:last-child {
+            color: green;
+        }
+    }
+}
+
+.boxWage {
+    background-color: white;
+    margin: 16px 0px 16px 0px;
+    padding: 19px;
+    border-radius: 8px;
+
+    & img {
+        width: 25px;
+        height: 25px;
+    }
+
+   
+
+    &>div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        & i {
+            color: green;
+        }
+    }
+}
+
+.searchBtn {
+    width: 100%
+}
+
+.banner {
+    height: 250px;
+    width: 100%
+}
+
+.bigBox {
+    margin: 24px 0px 24px 0px;
+    padding: 24px 0;
+    font-weight: 600;
+    color: white;
+    background: rgba(33, 47, 63, .3);
+    border: 1px solid transparent;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &:hover {
+        border: 1px solid #11d769;
+        box-shadow: 0 0 14px rgba(1, 226, 99, .2);
+    }
+}
+
+.groupTitle {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-weight: 600;
+    margin-bottom: 20px;
+
+    & p {
+        & span {
+            color: #11d769;
+            margin-left: 16px;
+        }
+
+        margin-bottom: 0;
+        margin-left: 16px;
+    }
+}
+
+.amountJobs {
+    display: flex;
+    margin-bottom: 8px;
+
+    & img {
+        height: 80px;
+        width: 65px;
+    }
+
+    & div:first-child {
+        margin-left: 16px;
+    }
+}
+
+.numberJobs {
+    display: flex;
+    align-items: center;
+    font-size: 28px;
+
+    & p {
+        margin: 0;
+    }
+
+    & span {
+        margin-left: 20px;
+        font-weight: 900;
+        font-size: 14px;
+        background: hsla(0, 0%, 100%, .15);
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+
+        & i {
+            font-size: 14px;
+        }
+    }
+}
+
+.newJobs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    & span {
+        font-size: 28px;
+        color: #11d769;
+    }
+}
+
+.boxDemand {
+    display: flex;
+    flex-direction: column;
+    background: rgba(33, 47, 63, .3);
+    border: 1px solid transparent;
+    border-radius: 5px;
+
+    &>p {
+        color: #11d769;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+
+        & span {
+            margin-left: 8px;
+        }
+    }
+
+    &:hover {
+        border: 1px solid #11d769;
+        box-shadow: 0 0 14px rgba(1, 226, 99, .2);
+    }
+
+    & img {
+        height: 200px;
+    }
+}
+
+.boxTitle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px;
+
+    & p {
+        margin: 0;
+    }
+
+    & div:first-child {
+        color: white;
+        display: flex;
+        align-items: center;
+
+        & p {
+            margin-left: 8px;
+        }
+    }
+
+    & div:last-child {
+        border: 1px solid #11d769;
+        padding: 8px 12px;
+        border-radius: 5px;
+        color: #11d769;
+
+        & select {
+            color: #11d769;
+            background: none;
+            margin: 0 10px;
+            border: none;
+            appearance: none;
+
+            &:focus {
+                outline: none;
+            }
+
+            &:hover {
+                cursor: pointer;
+            }
+
+        }
+
+        & span {
+            margin-left: 24px;
+        }
+    }
+}
+
+.dropdown {
+    margin: 0 16px;
+}
+
+@media only screen and (max-width: 768px) {
+    .boxLocation::before {
+        display: none;
+    }
+
+    .container {
+        margin-top: 0px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .bigGroup {
+        margin-top: 8px;
+    }
+
+    .container {
+        margin-top: 0px;
+    }
+}

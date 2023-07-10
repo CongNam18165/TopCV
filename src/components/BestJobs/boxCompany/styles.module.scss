@@ -1,0 +1,78 @@
+.container {
+    width: 32%;
+    background-color: white;
+    margin: 16px 0.5%;
+    padding: 16px;
+    border-radius: 5px;
+}
+
+.image {
+    width: 48px;
+    height: 48px;
+}
+
+.groupTitle {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    & p {
+        margin: 0;
+    }
+
+    & p:first-child {
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 20px;
+        color: #212f3f;
+    }
+
+    & p:last-child {
+        color: #6f7882;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 16px;
+    }
+
+    & div {
+        margin-left: 8px;
+    }
+}
+
+.groupInfo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 16px;
+
+    & div:first-child {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    & i{
+        cursor: pointer;
+        color: #e9eaec;
+    }
+}
+
+.boxSalary {
+    & p {
+        padding: 0 8px;
+        background-color: #e9eaec;
+        border-radius: 5px;
+        margin: 0;
+        margin-right: 8px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        width: 48%;
+    }
+}
+@media only screen and (max-width: 480px) {
+    .container {
+        width: 100%;
+    }
+}

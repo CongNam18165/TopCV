@@ -1,0 +1,102 @@
+.slick-prev {
+  top: -5% !important;
+  left: 92.5% !important;
+  border-radius: 50%;
+  border: 2px solid #11d769 !important;
+  z-index: 1;
+  width: 30px !important;
+  height: 30px !important;
+  padding: 1px 0px 0px 0px !important;
+}
+
+.slick-prev:before {
+  font-family: FontAwesome !important;
+  content: "\f104" !important;
+  color: #11d769 !important;
+  padding: 5px 8px !important;
+  border-radius: 50%;
+}
+
+.slick-prev:hover:before,
+.slick-next:hover:before {
+  color: white !important;
+  background-color: #11d769;
+}
+
+.slick-next:before {
+
+  font-family: FontAwesome !important;
+  content: "\f105" !important;
+  color: #11d769 !important;
+  padding: 5px 8px !important;
+  border-radius: 50%;
+}
+
+.slick-next {
+  top: -5% !important;
+  left: 95.5% !important;
+  border-radius: 50%;
+  border: 2px solid #11d769 !important;
+  z-index: 1;
+  width: 30px !important;
+  height: 30px !important;
+  padding: 1px 0px 0px 0px !important;
+}
+.carousel-indicators{
+  display: none !important;
+}
+.visually-hidden{
+  display: none;
+}
+.carousel-control-next-icon{
+  background-image: url(./assets/img/imgJobs/arrowNext.jpg) !important;
+  width: 30px !important;
+  height: 30px !important;
+  border-radius: 50%;
+  
+}
+.carousel-control-prev-icon{
+  background-image: url(./assets/img/imgJobs/arrowPrev.jpg) !important;
+  border-radius: 50%;
+  width: 30px !important;
+  height: 30px !important;
+  
+}
+.carousel-control-next{
+  width: auto !important;
+}
+.carousel-control-prev{
+width: auto !important;
+}
+@media only screen and (max-width: 768px) {
+
+  .slick-next,
+  .slick-prev {
+    display: none !important;
+  }
+  .carousel-control-next,.carousel-control-prev{
+    display: none;
+  }
+}
+.nav-tabs {
+  border: none !important;
+}
+.dropdown{
+  & a{
+    color: #444 !important;
+    &:hover{
+      outline: none !important; 
+      text-decoration: none !important;
+    }
+  }
+}
+@media only screen and (max-width: 768px) {
+  .boxTitle {
+    & h3 {
+      text-align: center;
+    }
+  }
+  .carousel-control-next,.carousel-control-prev{
+    display: none !important;
+  }
+}
